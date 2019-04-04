@@ -4,7 +4,7 @@ module.exports = function fizzBuzz(val) {
     return 'fizzbuzz';
   else if (val % 3 === 0) 
     return 'fizz';
-  else if (val % 5 === 0)
+  else if (val % 4 === 0)
     return 'buzz';
   else return val
   } 
